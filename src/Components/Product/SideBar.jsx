@@ -6,12 +6,13 @@ import { Products } from "../Data/Products";
 const SideBar = ({ selectedProductId }) => {
   return (
     <div className="w-auto min-w-[200px] h-full border-r bg-white shadow-sm p-6 overflow-y-auto">
-      <h2 className="text-xl font-semibold mb-6 text-gray-700">Type of Products</h2>
+      <h1 className="text-xl font-semibold mb-6 text-gray-700">Type of Products</h1>
       <div className="space-y-4">
         {/* Product Links */}
         {Products.map((product) => (
           <Link
             key={product.id}
+            title={product.title}
             to={`/products/${product.url}`} // Navigate to a new page
             className={`flex justify-between items-center py-3 px-5 rounded-sm cursor-pointer transition-all duration-200 font-medium shadow-sm
             ${selectedProductId === product.id

@@ -15,7 +15,7 @@ const Description = ({ product }) => {
     <DirectionsRoundedIcon className="mr-2" /> Need Customization?
   </div>
 
-  <h3 className="text-2xl font-bold mb-4 text-gray-900">{selectedProduct.title}</h3>
+  <h2 className="text-2xl font-bold mb-4 text-gray-900">{selectedProduct.title}</h2>
   <p className="text-gray-700 text-md font-medium">{selectedProduct.description}</p>
 
   {/* Modal */}

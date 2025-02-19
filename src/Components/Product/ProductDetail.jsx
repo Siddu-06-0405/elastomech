@@ -10,13 +10,15 @@ import NavBar from "../Navbar";
 import InfoTopBar from "../InfoTopBar";
 import WhatsAppIcon from "../../assets/whatsapp.webp";
 import Footer from "../Footer";
+import SEO from "../../utils/SEO";
+import NotFoundPage from "../../pages/NotFoundPage";
 
 const ProductDetail = () => {
   const { productUrl } = useParams();
   const product = Products.find((p) => p.url === productUrl);
 
   if (!product) {
-    return <div className="p-6">Product not found</div>;
+    return <NotFoundPage/>
   }
 
   const page_header_details = {
@@ -27,6 +29,10 @@ const ProductDetail = () => {
 
   return (
     <>
+    <SEO title={product.seo.title} keywords={product.seo.keywords} description={product.seo.description}/>
+    {/* {   console.log("SEO Keywords:", product.seo.keywords)} */}
+ 
+
       <div className="flex flex-col min-h-screen">
         <InfoTopBar />
         <NavBar />

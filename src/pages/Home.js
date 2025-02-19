@@ -9,6 +9,7 @@ import CounterSection from "../Components/CounterSection";
 // import ContactForm from "../Components/ContactForm";
 import ProductShowcase from "../Components/ProductShowcase";
 import WhatsAppIcon from "../assets/whatsapp.webp";
+import SEO from "../utils/SEO";
 
 const Home = () => {
   const [showButton, setShowButton] = useState(false);
@@ -32,6 +33,9 @@ const Home = () => {
 
   return (
     <>
+    <SEO title="Home - Welcome to Elastomech - Custom Rubber Products & Solutions"
+    description="Discover Elastomech's wide range of custom rubber products and innovative solutions. Explore our services, product showcases, and client success stories for tailored rubber manufacturing solutions."
+    keywords="custom rubber products, rubber solutions, industrial rubber products, elastomer products, rubber manufacturing, rubber engineering, industrial solutions, rubber product showcase"/>
       <div className="flex flex-col min-h-screen">
         <InfoTopBar />
         <Navbar />
@@ -52,6 +56,7 @@ const Home = () => {
         {showButton && (
           <button
             onClick={scrollToTop}
+            title="scrolltop"
             className=" fixed bottom-[5rem] right-4 bg-yellow-500 hover:bg-yellow-600 text-white rounded-full p-3 shadow-lg"
             aria-label="Scroll to top"
           >

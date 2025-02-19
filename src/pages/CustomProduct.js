@@ -7,6 +7,7 @@ import Footer from "../Components/Footer";
 import WhatsAppIcon from "../assets/whatsapp.webp";
 import { Link } from "react-router-dom";
 import { Build, CheckCircle, Construction, Settings } from "@mui/icons-material";
+import SEO from "../utils/SEO";
 
 
 const CustomProduct = () => {
@@ -18,6 +19,9 @@ const CustomProduct = () => {
   };
   return (
     <>
+    <SEO title="Custom Rubber Products - Tailored Solutions for Your Needs | Elastomech"
+    description="At Elastomech, we specialize in designing and producing custom rubber products tailored to meet your exact specifications. Our team ensures the highest quality and durability for every product."
+    keywords="custom rubber products, rubber solutions, tailor-made rubber, industrial rubber products, durable rubber, rubber product manufacturing, custom rubber designs, rubber engineering"/>
       <div className="flex flex-col min-h-screen">
         <InfoTopBar />
         <NavBar />

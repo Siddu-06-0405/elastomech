@@ -86,7 +86,7 @@ const Footer = () => {
     © ELASTOMECH, All Rights Reserved.
   </span>
   <span className="mt-2 md:mt-0 text-center text-sm md:text-base">
-    Website designed with ❤️ by <a href="https://webatlantis.in" target="_blank" rel="noopener noreferrer" className="text-[#ffda31] hover:underline">Team WebAtlantis</a>
+    Website designed with ❤️ by <a href="https://webatlantis.in" target="_blank" rel="noopener noreferrer" className="text-[#ffda31] hover:underline">Team WebAtlantis</a>|Mohit Kumar
   </span>
 </div>
 

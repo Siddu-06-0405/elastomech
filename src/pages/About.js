@@ -7,6 +7,7 @@ import EngagementProcess from '../Components/EngagementSteps';
 import WhatsAppIcon from "../assets/whatsapp.webp";
 import logo from '../assets/logo-nobg.webp';
 import {Link} from 'react-router-dom'
+import SEO from '../utils/SEO';
 
 const About = () => {
     const [showButton, setShowButton] = useState(false);
@@ -36,10 +37,14 @@ const About = () => {
 
     return (
         <>
+        <SEO title="About Us - Learn More About Elastomech - Quality Rubber Products Manufacturer"
+    description= "Discover Elastomech's journey since 1985. Learn about our commitment to quality, innovation, and excellence in manufacturing custom rubber products. Explore our history and values."
+    keywords="about Elastomech, rubber products manufacturer, quality rubber products, custom rubber solutions, industrial rubber products, manufacturing excellence, innovation in rubber, company history"
+  />
             <div className="flex flex-col min-h-screen">
                 <InfoTopBar />
                 <NavBar />
-                <div className="bg-white pt-[120px] pb-[120px] px-4 md:px-[80px] lg:px-[120px] flex flex-col md:flex-row items-center justify-between max-w-full">
+                <div className="bg-white pb-[120px] px-4 md:px-[80px] lg:px-[120px] flex flex-col md:flex-row items-center justify-between max-w-full">
                     {/* Image Section */}
                     <div className="flex-1 relative mb-6 md:mb-0">
                         <div className="relative rounded-lg overflow-hidden shadow-lg">

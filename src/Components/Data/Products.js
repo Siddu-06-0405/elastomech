@@ -79,7 +79,12 @@ export const Products = [
       { name: "DF 6x6 Inch D", image: [df_2] },
       { name: "DF 8x8 Inch D", image: [df_2] },
       { name: "DF 10x10 Inch D", image: [df_2] },
-    ],
+    ],  
+    seo: {
+      title: "Dock Fenders - Superior Protection for Marine Infrastructure | Elastomech",
+      description: "Innovating Dock Fenders and a comprehensive line of rubber products, ensuring superior protection for marine infrastructure worldwide. Reliable, durable, and versatile for safe docking and mooring operations.",
+      keywords: "dock fenders,boat dock fenders, rubber fenders, marine protection, berthing fenders, mooring fenders, rubber dock fenders",
+     },
   },
   {url:"dock-bumpers",
     id: 2,
@@ -105,7 +110,11 @@ export const Products = [
       { name: "DB 18x10x4 Inch.", image: [d_b_18x10x4, d_b_18x10x4_2] },
       { name: "DB 30x10x4 Inch.", image: [d_b_30x10x4, d_b_30x10x4_2] },
     ],
-
+    seo: {
+      title: "Dock Bumpers - Impact Protection for Marine Infrastructure | Elastomech",
+      description: "Innovating Dock Bumpers designed to provide impact protection and extend the lifespan of marine infrastructure. Reliable, durable, and essential for secure mooring and docking operations.",
+      keywords: "dock bumpers, marine bumpers, impact protection, mooring bumpers, rubber dock bumper, boat dock bumpers"
+    }
   },
   {url:"wheel-chokers",
     id: 3,
@@ -138,6 +147,11 @@ export const Products = [
       { name: "WC with Handle", image: [handle_wc, handle_wc2] },
      
     ],
+    seo: {
+      title: "Wheel Chokers - Secure Vehicle Parking and Safety | Elastomech",
+      description: "Our Wheel Chokers provide reliable solutions for securing vehicles in place, ensuring safety and preventing unwanted movement during parking operations.",
+      keywords: "wheel chokers, vehicle safety, parking chokers, rubber chokers, rubber wheel chokers"
+    }
   },
   {url:"speed-breakers",
     id: 4,
@@ -157,6 +171,11 @@ export const Products = [
       { name: "Speed Braker Black", image: [sb_black] },
       { name: "Speed Braker Yellow", image: [sb_yellow, sb_yellow2] },
     ],
+    seo: {
+      title: "Speed Breakers - Traffic Control and Safety | Elastomech",
+      description: "Our Speed Breakers are designed for effective traffic control, promoting safety and reducing vehicle speed in critical zones. Durable and weather-resistant for long-term use.",
+      keywords: "speed breakers, rubber speed breakers, rubber road products,road humps"
+    }
   },
   {url:"hose-ramps",
     id: 5,
@@ -184,6 +203,11 @@ export const Products = [
       { name: "HCR 4 Inch", image: [Hcr_4] },
       { name: "HCR 4 Inch [With Metal]", image: [Hcr_4] },
     ],
+    seo: {
+      title: "Hose Ramps - Protection and Safety for Hose Lines | Elastomech",
+      description: "Our Hose Ramps are designed to protect hoses from damage, ensuring safety and efficiency in industrial and construction environments. Durable and easy to deploy.",
+      keywords: "hose ramps, hose protection, industrial hose ramps, rubber hose ramps, hose safety, hose line protection,hose ramp with metal insert"
+    }
   },
   {url:"cable-protectors",
     id: 6,
@@ -208,6 +232,11 @@ export const Products = [
       { name: "Single Core Cp - 1 Inch Cable", image: [cp_1] },
       { name: "Double Core Cp - 30mm Cable", image: [cp_2] },
     ],
+    seo: {
+      title: "Cable Protectors - Safe and Durable Cable Management | Elastomech",
+      description: "Protect and manage cables effectively with our Cable Protectors, designed to prevent tripping hazards and damage to cables in high-traffic areas. Reliable and long-lasting.",
+      keywords: "cable protectors, cable safety, rubber cable protectors, cable management, cable protection, industrial cable safety, traffic safety"
+    }
   },
   {url:"rubber-stoppers",
     id: 7,
@@ -238,6 +267,11 @@ export const Products = [
       { name: "RB 8 Inch D", image: [Rb8] },
       { name: "Door Bush", image: [door_bush, door_bush2] },
     ],
+    seo: {
+      title: "Rubber Stoppers - Secure and Versatile Solutions | Elastomech",
+      description: "Our Rubber Stoppers are perfect for sealing containers, protecting equipment, and preventing damage in various industries. Durable, versatile, and easy to use.",
+      keywords: "rubber stoppers, container sealing, Rubber Stoppers Manufacturer,Supplier,Exporter, industrial stoppers, rubber seals, versatile stoppers, sealing solutions"
+    }
   },
   {url:"tipper-pads",
     id: 8,
@@ -253,6 +287,11 @@ export const Products = [
     ],
     technicals: ["Natural or Synthetic Rubber", "Black", "", "", ""],
     variety: [{ name: "Tipper Pads", image: [tipper] }],
+    seo: {
+      title: "Tipper Pads - Effective Load Distribution and Protection | Elastomech",
+      description: "Tipper Pads provide optimal load distribution and protection for vehicles and equipment during tipping operations, improving efficiency and safety.",
+      keywords: "tipper pads, load distribution pads, vehicle protection, tipping pads, rubber tipper pads, industrial load pads, equipment protection"
+    }
   },
   {url:"corner-guards",
     id: 9,
@@ -270,5 +309,11 @@ export const Products = [
     variety: [
       { name: "", image: [wg,wg2] },
     ],
+    seo: {
+      title: "Corner Guards - Protection and Safety for Edges | Elastomech",
+      description: "Our Corner Guards provide superior protection for walls and furniture edges, preventing damage and reducing maintenance costs. Ideal for industrial, commercial, and residential use.",
+      keywords: "corner guards, edge protection, wall corner protectors, rubber corner guards, industrial corner guards, furniture protection, wall protection"
+    }
   },
+
 ];

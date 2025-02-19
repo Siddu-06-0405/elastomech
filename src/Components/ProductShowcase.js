@@ -103,6 +103,9 @@ const ProductShowcase = () => {
                 <div className="services-titles">
                   <h3 className="text-xl font-semibold mb-2 text-[#010d14]">
                     <Link
+               title={service.title}
+               alt={service.description}
+               
                       to={"/products/" + service.link}
                       className="hover:text-blue-500 transition-colors"
                     >
@@ -117,10 +120,12 @@ const ProductShowcase = () => {
               <p className="services-txt text-black mb-4">{service.description}</p>
               <div className="services-btn">
                 <Link
+                title={service.title}
+                alt={service.description}
                   to={"/products/" + service.link}
                   className="text-blue-600 font-medium hover:underline"
                 >
-                  Read More
+                  Read more about {service.title}
                 </Link>
               </div>
             </div>

@@ -8,6 +8,7 @@ import NavBar from "../Components/Navbar";
 import InfoTopBar from "../Components/InfoTopBar";
 import WhatsAppIcon from "../Components/Product/whatsapp.webp";
 import Footer from "../Components/Footer";
+import SEO from "../utils/SEO";
 
 const Product = () => {
   const [product, setProduct] = useState(1);
@@ -45,6 +46,7 @@ const Product = () => {
 
   return (
     <>
+    <SEO title="Products" keywords="dock fenders,boat dock fenders, rubber fenders, marine protection, berthing fenders, mooring fenders, rubber dock fenders,dock bumpers, marine bumpers, impact protection, mooring bumpers, rubber dock bumper, boat dock ,wheel chokers, vehicle safety, parking chokers, rubber chokers, rubber wheel chokers,speed breakers, rubber speed breakers, rubber road products,road humps,hose ramps, hose protection, industrial hose ramps, rubber hose ramps, hose safety, hose line protection,hose ramp with metal insert,cable protectors, cable safety, rubber cable protectors, cable management, cable protection, industrial cable safety, traffic safety,rubber stoppers, container sealing, Rubber Stoppers Manufacturer,Supplier,Exporter, industrial stoppers, rubber seals, versatile stoppers, sealing solutions,tipper pads, load distribution pads, vehicle protection, tipping pads, rubber tipper pads, industrial load pads, equipment protection,corner guards, edge protection, wall corner protectors, rubber corner guards, industrial corner guards, furniture protection, wall protection" description="Products manufactured by Elastomech"/>
       <div className="flex flex-col min-h-screen">
         <InfoTopBar />
         <NavBar />
@@ -52,7 +54,8 @@ const Product = () => {
 
         <div className="flex flex-col lg:flex-row gap-4 w-full">
           {/* Sidebar */}
-          <div className="w-full lg:w-1/4 xl:w-1/5 bg-white shadow-sm p-6 lg:sticky lg:top-0">
+         <div className="w-full lg:w-1/4 xl:w-1/5 bg-white shadow-sm p-6 lg:sticky lg:top-0">
+
             <SideBar selectedProductId={selectedProductId} handleProductChange={handleProductChange} />
           </div>
 
