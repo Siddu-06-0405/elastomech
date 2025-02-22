@@ -91,7 +91,7 @@ const NavBar = () => {
         className="md:hidden flex items-center justify-center font-ubuntu"
         onClick={toggleMenu}
       >
-        <span className="text-white">
+        <span className="text-black">
           <MenuIcon />
         </span>
       </button>
