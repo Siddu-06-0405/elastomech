@@ -169,7 +169,7 @@ const FAQDB=()=> {
           </button>
           {openIndex === 9 && (
             <div className="p-4 bg-yellow-100 text-black">
-              Elastomech combines quality, durability, and affordability to deliver the best dock bumpers in the market. We offer custom solutions, expert support, and competitive pricing. Visit <a href="https://www.elastomech.in/products/dock-bumpers" target="_blank"  className='text-blue-700' >Elastomech.in</a> to learn more.
+              Elastomech combines quality, durability, and affordability to deliver the best dock bumpers in the market. We offer custom solutions, expert support, and competitive pricing. Visit <a href="https://www.elastomech.in/products/dock-bumpers" target="_blank" rel="noopener noreferrer" className='text-blue-700' >Elastomech.in</a> to learn more.
             </div>
           )}
         </div>
