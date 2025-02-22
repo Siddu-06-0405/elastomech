@@ -7,6 +7,7 @@ import Product from './pages/Product';
 import CustomProduct from './pages/CustomProduct';
 import NotFoundPage from './pages/NotFoundPage';
 import { HelmetProvider } from 'react-helmet-async';
+import FAQDB from './pages/FAQDB';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/products/:productUrl" element={<ProductDetail />} />
           <Route path="/products" element={<Product />} />
           <Route path="/custom-product" element={<CustomProduct />} />
+          <Route path="/faq/dock-bumpers" element={<FAQDB />} />
           <Route path="/contact" element={<ContactPage />} />
           
           {/* Catch-All Route for Undefined Pages */}

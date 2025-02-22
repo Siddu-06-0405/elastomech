@@ -20,7 +20,7 @@ const NavBar = () => {
 
   return (
     <>
-<header className="menu-area sticky top-0 bg-black shadow z-[999]">
+<header className="menu-area sticky top-0 bg-white shadow z-[999]">
   <div className="container mx-auto flex justify-between items-center py-4 md:py-6 px-4">
     {/* Logo Section */}
     <div className="flex items-center">
@@ -34,7 +34,7 @@ const NavBar = () => {
     </div>
 
     {/* Navigation Menu (Desktop) */}
-    <nav className="flex-1 hidden md:flex justify-center space-x-6 text-white font-medium">
+    <nav className="flex-1 hidden md:flex justify-center space-x-6 text-black font-medium">
       <Link
         to="/"
         className={`text-[17px] md:text-[19px] font-ubuntu ${
