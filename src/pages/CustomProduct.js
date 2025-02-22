@@ -20,8 +20,8 @@ const CustomProduct = () => {
   return (
     <>
     <SEO title="Custom Rubber Products - Tailored Solutions for Your Needs | Elastomech"
-    description="At Elastomech, we specialize in designing and producing custom rubber products tailored to meet your exact specifications. Our team ensures the highest quality and durability for every product."
-    keywords="custom rubber products, rubber solutions, tailor-made rubber, industrial rubber products, durable rubber, rubber product manufacturing, custom rubber designs, rubber engineering"/>
+    description="At Elastomech, we specialize in technicaling and producing custom rubber products tailored to meet your exact specifications. Our team ensures the highest quality and durability for every product."
+    keywords="custom rubber products, rubber solutions, tailor-made rubber, industrial rubber products, durable rubber, rubber product manufacturing, custom rubber technicals, rubber engineering"/>
       <div className="flex flex-col min-h-screen">
         <InfoTopBar />
         <NavBar />
@@ -55,14 +55,14 @@ const CustomProduct = () => {
               </p>
             </div>
 
-            {/* Step 2: Design Consultation */}
+            {/* Step 2: technical Consultation */}
             <div className="bg-black text-yellow-400 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
               <div className="flex items-center justify-center mb-4">
                 <Settings className="text-4xl" />
               </div>
-              <h2 className="text-xl sm:text-2xl font-semibold mb-2">Step 2: Design Consultation</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold mb-2">Step 2: Technical Consultation</h2>
               <p className="text-sm sm:text-base text-white">
-                Our experienced engineers will provide design consultations to ensure the product fits your exact needs.
+                Our experienced engineers will provide technical consultations to ensure the product fits your exact needs.
               </p>
             </div>
 
@@ -73,7 +73,7 @@ const CustomProduct = () => {
               </div>
               <h2 className="text-xl sm:text-2xl font-semibold mb-2">Step 3: Production</h2>
               <p className="text-sm sm:text-base text-white">
-                Once the design is finalized, we begin production. We use state-of-the-art machinery and materials to ensure top-quality results.
+                Once the technical is finalized, we begin production. We use state-of-the-art machinery and materials to ensure top-quality results.
               </p>
             </div>
           </div>
@@ -85,7 +85,7 @@ const CustomProduct = () => {
             Need Assistance with Your Custom Product?
           </h2>
           <p className="text-lg sm:text-xl text-white mb-8 max-w-3xl mx-auto">
-            Our customer support is available to help you at every step of the process. We're here to assist you in designing the perfect product.
+            Our customer support is available to help you at every step of the process. We're here to assist you in technicaling the perfect product.
           </p>
           <Link to="/contact">
             <button  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="bg-yellow-500 text-black py-3 px-6 rounded-full text-xl hover:bg-yellow-600 transition-colors">
