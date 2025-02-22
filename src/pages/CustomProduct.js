@@ -88,10 +88,10 @@ const CustomProduct = () => {
             Our customer support is available to help you at every step of the process. We're here to assist you in designing the perfect product.
           </p>
           <Link to="/contact">
-            <button className="bg-yellow-500 text-black py-3 px-6 rounded-full text-xl hover:bg-yellow-600 transition-colors">
+            <button  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="bg-yellow-500 text-black py-3 px-6 rounded-full text-xl hover:bg-yellow-600 transition-colors">
               Contact Us Now
-            </button>
-          </Link>
+            </button >
+          </Link >
         </div>
 
         {/* Why Choose Us Section */}
@@ -129,7 +129,7 @@ const CustomProduct = () => {
             Our team is ready to bring your ideas to life with tailor-made solutions. Get in touch today to get started!
           </p>
           <Link to="/contact">
-            <button className="bg-black text-yellow-500 py-3 px-6 rounded-full text-xl hover:bg-yellow-600 hover:text-black transition-colors">
+            <button  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="bg-black text-yellow-500 py-3 px-6 rounded-full text-xl hover:bg-yellow-600 hover:text-black transition-colors">
               Request Your Custom Product
             </button>
           </Link>
