@@ -11,6 +11,10 @@ import FAQDB from './pages/FAQDB';
 import FAQDF from './pages/FAQDF';
 import FAQWC from './pages/FAQWC';
 import FAQSB from './pages/FAQSB';
+import FAQHR from './pages/FAQHR';
+import FAQCP from './pages/FAQCP';
+import FAQTP from './pages/FAQTP';
+import FAQRS from './pages/FAQRS';
 
 const App = () => {
   return (
@@ -26,6 +30,10 @@ const App = () => {
           <Route path="/faq/dock-bumpers" element={<FAQDB />} />
           <Route path="/faq/wheel-chockers" element={<FAQWC />} />
           <Route path="/faq/speed-breakers" element={<FAQSB />} />
+          <Route path="/faq/hose-ramps" element={<FAQHR />} />
+          <Route path="/faq/cable-protectors" element={<FAQCP />} />
+          <Route path="/faq/tipper-pads" element={<FAQTP />} />
+          <Route path="/faq/rubber-stoppers" element={<FAQRS />} />
           <Route path="/contact" element={<ContactPage />} />
           
           {/* Catch-All Route for Undefined Pages */}
